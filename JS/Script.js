@@ -182,8 +182,11 @@ document.getElementById("info-nav").addEventListener("click", function(){
         content.style.display = "block";
         let luas = document.getElementById("luas-section");
         let kel = document.getElementById("keliling-section");
+        let about = document.getElementById("aboutMe-section");
         luas.style.display = "none";
         kel.style.display = "none";
+        about.style.display = "none";
+
     }
     else{
         return;
