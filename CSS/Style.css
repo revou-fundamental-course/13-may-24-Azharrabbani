@@ -1,0 +1,729 @@
+/* Ini CSS */
+
+/* Bagian Header */
+header{
+    background-color: #3F51B5;
+    border-radius: 1ex;
+    text-align: center;
+    margin: -10px;
+    position: fixed;
+    width: 100%;
+}
+
+header h1{
+    color: rgb(255, 250, 240);
+    font-family: fangsong;
+}
+
+header p{
+    color: rgb(255, 250, 240);
+    font-size: 3ex;
+    font-family: math;
+}
+
+.icon-header{
+    width: 15ex;
+    height: 13ex;
+    padding-top: 2ex;
+}
+
+.fade-in-image{
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn{
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+/* Gaya untuk tombol */
+button {
+    background-color: #3F51B5;
+    color: rgb(255, 250, 240);
+    border-radius: 1ex;
+    width: 100%; 
+    max-width: 268.8ex; 
+    height: 5ex;
+    border: none;
+    padding: 1ex; 
+    font-size: 1em; 
+    margin-top: 0ex;
+}
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width: 100%; 
+    max-width: 268.8ex; 
+}
+
+.dropdown-content {
+    background-color: #3F51B5;
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    z-index: 1; 
+}
+
+/* Tampilkan dropdown saat hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: rgb(255, 250, 240);
+    padding: 2ex;
+    text-decoration: none;
+    font-size: 1em; 
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+
+
+@media (max-width: 600px) {
+    button {
+        font-size: 0.9em; 
+        padding: 1.5ex; 
+    }
+
+    .dropdown-content a {
+        padding: 1.5ex; 
+        font-size: 0.9em; 
+    }
+
+    .container-aboutMe {
+        padding-top: 5rem;
+    }
+
+    .contain-me {
+        width: 90%;
+        margin: auto;
+    }
+
+    .social {
+        margin-top: 1em;
+    }
+
+    .skill {
+        margin-top: 1em;
+    }
+
+    .my-skill ul {
+        justify-content: center;
+    }
+
+    .skill-icon {
+        width: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dropdown-content a {
+        padding: 0.5em;
+    }
+    
+    .info p, .note p, .rumus, .detail {
+        font-size: 1em;
+    }
+    
+    .hitung {
+        padding: 1em;
+    }
+    
+    header h1, header p {
+        font-size: 1.5em;
+    }
+    
+    .judul, .judul-info {
+        font-size: 1.5em;
+    }
+    
+    table, th, td {
+        font-size: 0.9em;
+    }
+    
+    .note {
+        width: 100%;
+        margin: 1em 0;
+    }
+}
+
+/* Section Info */
+
+
+
+.info{
+    padding-top: 50ex;
+    background-color: rgb(240, 248, 250);
+    margin: -10px;
+    border-radius: 1ex;
+}
+
+.judul-info{
+    text-align: center;
+    font-family: system-ui;
+    background-color: rgb(173, 216, 230);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    color: rgb(240, 255, 255);
+    border-radius: 1ex;
+    margin-top: -52px;
+    margin-left: -1em;
+}
+
+.image{
+    width: 28%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5ex;
+    margin-top: 2.7em;
+}
+
+.jenis{
+    width: 28%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.info p{
+    font-size: 3ex;
+    text-align: justify;
+    padding-left: 3ex;
+    padding-right: 3ex;
+}
+
+table{
+    font-family: system-ui;
+}
+
+table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+.info th{
+    font-size: 3.1ex;
+}
+
+.info .sub-judul{
+    text-align: center;
+    font-size: 2.2ex;
+}
+
+.sub-judul td{
+    width: 23%;
+}
+
+.info .ket-segiiga{
+    text-align: center;
+    
+}
+
+.jenis-segitiga img{
+    width: 25ex;
+}
+
+/* Section Luas Segitiga */
+.luas-segitiga{
+    padding-top: 2ex;
+    background-color: rgb(240, 248, 250);;
+    margin-top: 4ex;
+    margin-right: -4ex;
+    border-radius: 0ex;
+}
+
+.judul{
+    text-align: center;
+    font-family: system-ui;
+    background-color: rgb(173, 216, 230);
+    padding: 2em;
+    color: rgb(240, 255, 255);
+    border-radius: 1ex;
+    margin-top: -52px;
+    margin-left: -1em;
+}
+
+span{
+    padding-left: 1ex;
+}
+
+.note{
+    background-color: rgb(255, 250, 205);
+    width: 37%;
+    height: auto;
+    padding: 1%;
+    margin-left: 2em;
+    border-radius: 6ex;
+    margin-top: 3em;
+}
+
+.subject{
+    font-weight: bold;
+    padding-left: 1em;
+    font-size: 26px;
+    font-family: math;
+}
+.detail{
+    font-weight: bold;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 18px;
+    font-family: math;
+}
+
+.rumus{
+    font-style: italic;
+    text-align: center;
+    font-size: 28px;
+    font-family: math;
+    padding-top: 1em;
+}
+
+.hitung{
+    background-color: rgb(245, 255, 250);
+    padding: 16ex;
+    border-radius: 3em;
+    width: 40ex;
+    margin-left: 36%;
+    max-width: 600px;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+hr{
+    margin-top: 2em;
+}
+
+.container .tittle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 4ex;
+    font-family: math;
+}
+
+/* Style inputs */
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.input{
+    margin-top: -4ex;
+}
+
+.bottom{
+    margin-bottom: -2ex;
+}
+
+
+button[type=button]:hover {
+    background-color: #119dd4;
+}
+
+.error{
+    color: rgb(255, 0, 0);
+    font-family: monospace;
+    padding-bottom: 1ex;
+}
+
+div .resultAlas{
+    font-family: monospace;
+    margin-top: 6ex;
+    margin-bottom: -9ex;
+    margin-left: -8ex;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+div .resultKeliling{
+    font-family: monospace;
+    margin-top: 6ex;
+    margin-bottom: -9ex;
+    margin-left: -8ex;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+.container{
+    padding-top: 50ex;
+}
+
+#info-section{
+    display: none;
+}
+
+#luas-section{
+    display: none;
+}
+
+#keliling-section{
+    display: none;
+}
+
+#aboutMe-section{
+    display: none;
+}
+
+
+/* About Me */
+
+.container-aboutMe{
+
+    background-image: url("https://e0.pxfuel.com/wallpapers/788/106/desktop-wallpaper-deep-space-640%C3%971136-deep-space-adorable-cute-outer-space.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-top: 50ex;
+    margin-left: -1em;
+
+}
+
+.double{
+    background-color: rgba(39, 19, 126, 0.685);
+    width: 116em;
+    height: 19em;
+    margin-left: -1em;
+}
+
+.contain-me{
+    background-color: rgb(22 0 77 / 86%);
+    width: 57ex;
+    height: 92ex;
+    border-radius: 3em;
+    margin-left: 45em;
+    margin-top: 4em;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Sesuaikan dengan tinggi yang diinginkan */
+}
+
+.circular-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -45em;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.nama{
+    margin-top: -30em;
+    margin-left: 2.2em;
+    font-size: 25px;
+    color: rgb(220, 220, 220);
+    font-family: math;
+}
+
+.lokasi{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(220, 220, 220);
+    font-family: math;
+}
+
+.deskripsi{
+    text-align: center;
+    color: #d2d3ff;
+    font-family: math;
+}
+
+.social {
+    display: flex;
+    gap: 1em; /* Atur jarak antara elemen img */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-top: 1.8em;
+}
+
+.social a {
+    display: inline-block;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.social a:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+    filter: brightness(1.2); /* Brighten the icon on hover */
+}
+
+.icon {
+    width: 3em; /* Adjust size as needed */
+    height: auto;
+}
+
+.link:hover{
+    background-color: #922b2b;
+}
+
+.skill{
+    background-color: rgb(9 1 28 / 64%);
+    display: flex;
+    height: 7.3em;
+    border-radius: 0em 0em 3em 3em;
+    gap: 2em;
+    margin-top: 2.1em;
+}
+
+.line-skill{
+    margin-left: 1em;
+    font-size: 18px;
+    color: rgb(220, 220, 220);
+    font-family: math;
+}
+
+.my-skill{
+    display: flex;
+    height: 1.3em;
+    border-radius: 0em 0em 3em 3em;
+    gap: 1.5em;
+    margin-top: 2.2em;
+    margin-left: -4em;
+    padding-right: 7em;
+    justify-content: space-around;
+    flex-direction: row;
+    color: rgb(127, 255, 0);
+    font-style: italic;
+    font-family: serif;
+}
+
+.my-skill ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.2em;
+    margin-left: -1.5em;
+}
+
+.skill-icon{
+    width: 2.1em;
+    border-radius: 1em
+}
+
+
+.judul-aboutMe{
+    text-align: center;
+    font-family: system-ui;
+    background-color: #9700f9a3;
+    padding: 2em;
+    color: rgb(240, 255, 255);
+    border-radius: 1ex;
+    margin-top: -52px;
+    margin-left: -1em;
+}
+
+/* Untuk layar dengan lebar maksimal 1200px */
+@media (max-width: 1200px) {
+    .container-aboutMe {
+        padding-top: 40ex;
+        margin-left: -0.5em;
+    }
+
+    .contain-me {
+        width: 50ex;
+        margin-left: 30em;
+    }
+
+    .image-container {
+        height: 80vh;
+    }
+
+    .circular-photo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .nama {
+        margin-top: -28em;
+    }
+
+    .skill {
+        height: 6em;
+    }
+
+    .my-skill {
+        margin-top: 2em;
+    }
+
+    .skill-icon {
+        width: 1.8em;
+    }
+}
+
+
+
+@media (max-width: 860px) {
+    .judul-aboutMe{
+        margin-left: 2px;
+    }
+
+    .double{
+        width: 54.7em;
+    }
+
+    .container-aboutMe {
+        padding-top: 51ex;
+        margin-left: -1em;
+        margin-right: -1em;
+    }
+
+    .contain-me {
+        width: 55ex;
+        margin-left: 14.7em;
+        margin-top: -1em;
+    }
+
+    .image-container {
+        height: 110vh;
+    }
+
+    .circular-photo {
+        width: 110px;
+        height: 110px;
+    }
+
+    .nama {
+        margin-top: -30em;
+    }
+
+    .skill {
+        height: 5em;
+    }
+
+    .my-skill {
+        margin-top: 1.8em;
+    }
+
+    .skill-icon {
+        width: 1.5em;
+    }
+}
+
+/* Untuk layar dengan lebar maksimal 768px */
+@media (max-width: 768px) {
+    .judul-aboutMe{
+        margin-top: 8.2em;
+    }
+
+    .container-aboutMe {
+        padding-top: 20ex;
+        margin-left: -1em;
+        margin-bottom: -20em;
+    }
+
+    .contain-me {
+        width: 52ex;
+        margin-left: 13em;
+        margin-top: 5em;
+    }
+
+    .image-container {
+        height: 105vh;
+    }
+
+    .circular-photo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nama {
+        margin-top: -30em;
+        margin-left: 1.8em;
+    }
+
+    .social{
+        margin-top: 3em;
+    }
+
+    .skill {
+        height: 6.5em;
+        margin-top: 5em;
+    }
+
+    .my-skill {
+        margin-top: 2em;
+        margin-left: -3.6em;
+    }
+
+    .skill-icon {
+        width: 1.7em;
+    }
+
+    .double{
+        margin-top: 20em;
+        width: 49em;
+        height: 20em;
+        margin-left: -1em;
+    }
+}
+
+/* Untuk layar dengan lebar maksimal 576px */
+@media (max-width: 576px) {
+    .container-aboutMe {
+        padding-top: 20ex;
+        margin-left: -1em;
+        width: 49em;
+    }
+
+    .contain-me {
+        width: 60ex;
+        margin-left: 11em;
+        margin-top: 2em;
+    }
+
+    .image-container {
+        height: 107vh;
+    }
+
+    .circular-photo {
+        width: 90px;
+        height: 90px;
+    }
+
+    .nama {
+        margin-top: -30em;
+        margin-left: 3em;
+    }
+
+    .skill {
+        height: 5.2em;
+    }
+
+    .my-skill {
+        margin-top: 1em;
+        margin-left: -2em;
+    }
+
+    .skill-icon {
+        width: 1.8em;
+    }
+}
+
+
+
+
