@@ -90,83 +90,13 @@ button {
 }
 
 
-@media (max-width: 600px) {
-    button {
-        font-size: 0.9em; 
-        padding: 1.5ex; 
-    }
-
-    .dropdown-content a {
-        padding: 1.5ex; 
-        font-size: 0.9em; 
-    }
-
-    .container-aboutMe {
-        padding-top: 5rem;
-    }
-
-    .contain-me {
-        width: 90%;
-        margin: auto;
-    }
-
-    .social {
-        margin-top: 1em;
-    }
-
-    .skill {
-        margin-top: 1em;
-    }
-
-    .my-skill ul {
-        justify-content: center;
-    }
-
-    .skill-icon {
-        width: 2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .dropdown-content a {
-        padding: 0.5em;
-    }
-    
-    .info p, .note p, .rumus, .detail {
-        font-size: 1em;
-    }
-    
-    .hitung {
-        padding: 1em;
-    }
-    
-    header h1, header p {
-        font-size: 1.5em;
-    }
-    
-    .judul, .judul-info {
-        font-size: 1.5em;
-    }
-    
-    table, th, td {
-        font-size: 0.9em;
-    }
-    
-    .note {
-        width: 100%;
-        margin: 1em 0;
-    }
-}
-
 /* Section Info */
-
-
-
 .info{
     padding-top: 50ex;
     background-color: rgb(240, 248, 250);
     margin: -10px;
     border-radius: 1ex;
+    margin-bottom: 2em;
 }
 
 .judul-info{
@@ -370,6 +300,7 @@ div .resultKeliling{
 
 .container{
     padding-top: 50ex;
+    background-color: #f0f8ff;
 }
 
 #luas-section{
@@ -399,7 +330,7 @@ div .resultKeliling{
 }
 
 .double{
-    background-color: rgba(39, 19, 126, 0.685);
+    background-color: #3F51B5;
     width: 116em;
     height: 19em;
     margin-left: -1em;
@@ -536,13 +467,13 @@ div .resultKeliling{
 /* Untuk layar dengan lebar maksimal 1200px */
 @media (max-width: 1200px) {
     .container-aboutMe {
-        padding-top: 40ex;
-        margin-left: -0.5em;
+        padding-top: 22.1em;
+        width: 121.1em;
     }
 
     .contain-me {
         width: 50ex;
-        margin-left: 30em;
+        margin-left: 49em;
     }
 
     .image-container {
@@ -552,14 +483,16 @@ div .resultKeliling{
     .circular-photo {
         width: 130px;
         height: 130px;
+        margin-top: -29em;
     }
 
     .nama {
-        margin-top: -28em;
+        margin-top: -19em;
+        margin-left: 1.3em;
     }
 
     .skill {
-        height: 6em;
+        height: 7em;
     }
 
     .my-skill {
@@ -569,59 +502,261 @@ div .resultKeliling{
     .skill-icon {
         width: 1.8em;
     }
+
+    .judul-info{
+        width: 80.3em;
+    }
+    
+    .info{
+        width: 120.3em;
+    }
+
+    .judul{
+        width: 77.2em;
+    }
+
+    .container{
+        width: 120em;
+
+    }
+
+    .double{
+        width: 121em;
+    }
 }
 
 
 
 @media (max-width: 860px) {
+    .icon-header{
+        width: 17ex;
+        height: 14ex;
+        padding-top: 2ex;
+    }
+
+    header{
+        position: fixed;
+    }
+
+    header h1{
+        font-size: 42px;
+    }
+
+    header p{
+        font-size: 4.2ex;
+    }
+
+    header button{
+        font-size: 3ex;
+    }
+
+    .info{
+        width: 142.1em;
+    }
+
+    .info table{
+        margin-left: 9em;
+        margin-right: 9em;
+    }
+    
+    .info th{
+        font-size: 4.5ex;
+    }
+
+    .info p{
+        font-size: 4ex;
+        padding-left: 6em;
+        padding-right: 6em;
+    }
+
+    .info td{
+        font-size: 3ex;
+    }
+
+    .judul-info{
+        margin-top: 1.5em;
+        font-size: 4ex;
+        margin-left: -1.4em;
+    }
+
+    .input input{
+        width: 22em;
+        height: 3em;
+        font-size: 4ex;
+        margin-left: -0.5em;
+    }
+
+    .hitung{
+        width: 55em;
+        height: 32em;
+        padding-top: 9em;
+    }
+
+    .input button{
+        margin-top: 2em;
+        width: 31em;
+        height: 3.5em;
+        margin-left: 3.1em;
+    }
+
+    .bottom{
+        margin-top: 1em;
+        width: 31em;
+        height: 3.5em;
+        margin-left: 3.1em;
+    }
+
+
     .judul-aboutMe{
-        margin-left: 2px;
+        margin-top: 1em;
+        font-size: 5ex;
+        width: 61em;
+    }
+
+    .dropdown-content a{
+        font-size: 4.3ex;
     }
 
     .double{
-        width: 54.7em;
+        width: 142.7em;
+    }
+
+    .judul{
+        margin-top: 1.2em;
+        width: 92em;
+        font-size: 5ex;
+    }
+
+    .container{
+        width: 212em;
+    }
+
+    .subject{
+        font-size: 6ex;
+    }
+
+    .rumus{
+        font-size: 7ex;
+    }
+
+    .detail{
+        font-size: 5ex;
+    }
+
+    .note{
+        margin-left: 64em;
+    }
+
+    .tittle{
+        font-size: 9ex;
+    }
+
+    .input label{
+        font-size: 6ex;
+        margin-left: -0.4em;
     }
 
     .container-aboutMe {
         padding-top: 51ex;
         margin-left: -1em;
         margin-right: -1em;
+        width: 143em;
     }
 
     .contain-me {
-        width: 55ex;
-        margin-left: 14.7em;
+        width: 104ex;
+        margin-left: 47.7em;
         margin-top: -1em;
+        padding-bottom: 35em;
     }
 
     .image-container {
-        height: 110vh;
+        height: 128vh;
     }
 
     .circular-photo {
-        width: 110px;
-        height: 110px;
+        width: 15em;
+        height: 247px;
+        margin-top: -36em;
     }
 
     .nama {
-        margin-top: -30em;
+        margin-top: -16em;
+        margin-left: 3.3em;
+        font-size: 5.6ex;
+    }
+
+    .icon{
+        width: 5em;
+        height: auto;
+        margin-top: 1em;
+    }
+
+    .lokasi{
+        font-size: 5ex;
+    }
+
+    .deskripsi{
+        font-size: 4.5ex;
     }
 
     .skill {
-        height: 5em;
+        height: 14em;
+    }
+
+    .line-skill{
+        font-size: 36px;
     }
 
     .my-skill {
-        margin-top: 1.8em;
+        margin-top: 5.8em;
+        margin-left: -2em;
     }
 
     .skill-icon {
-        width: 1.5em;
+        width: 3.8em;
     }
 }
 
 /* Untuk layar dengan lebar maksimal 768px */
 @media (max-width: 768px) {
+    .dropdown-content a {
+        padding: 0.5em;
+    }
+    
+    .info p, .note p, .rumus, .detail {
+        font-size: 1em;
+    }
+    
+    .hitung {
+        padding: 1em;
+    }
+    
+    header h1, header p {
+        font-size: 1.5em;
+    }
+    
+    .judul, .judul-info {
+        font-size: 1.5em;
+        margin-top: -17px;
+        margin-left: -16px;
+        margin-right: -14px;
+    }
+    
+    table, th, td {
+        font-size: 0.9em;
+    }
+    
+    .note {
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .container{   
+        margin-bottom: -17em;
+    }
+
+
     .judul-aboutMe{
         margin-top: 8.2em;
     }
@@ -676,7 +811,67 @@ div .resultKeliling{
         height: 20em;
         margin-left: -1em;
     }
+
+    .info{
+        margin-bottom: -18em;
+    }
+
+    .image{
+        width: 23em;
+    }
+
+    .note{
+        width: 24em;
+        margin-left: 11em
+    }
+
+    .resultAlas{
+        margin: 1em;
+    }
+
+    .resultKeliling{
+        margin: 1em;
+    }
+
 }
+
+@media (max-width: 600px) {
+    button {
+        font-size: 0.9em; 
+        padding: 1.5ex; 
+    }
+
+    .dropdown-content a {
+        padding: 1.5ex; 
+        font-size: 0.9em; 
+    }
+
+    .container-aboutMe {
+        padding-top: 5rem;
+    }
+
+    .contain-me {
+        width: 90%;
+        margin: auto;
+    }
+
+    .social {
+        margin-top: 1em;
+    }
+
+    .skill {
+        margin-top: 1em;
+    }
+
+    .my-skill ul {
+        justify-content: center;
+    }
+
+    .skill-icon {
+        width: 2rem;
+    }
+}
+
 
 /* Untuk layar dengan lebar maksimal 576px */
 @media (max-width: 576px) {
